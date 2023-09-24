@@ -1,0 +1,4 @@
+[console_scripts]
+simple_client = simple_service.simple_client:main
+simple_server = simple_service.simple_server:main
+

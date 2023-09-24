@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing state.egg-info/PKG-INFO
+writing dependency_links to state.egg-info/dependency_links.txt
+writing entry points to state.egg-info/entry_points.txt
+writing requirements to state.egg-info/requires.txt
+writing top-level names to state.egg-info/top_level.txt
+reading manifest file 'state.egg-info/SOURCES.txt'
+writing manifest file 'state.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state.egg-link (link to .)
+Installing state_machine2 script to /home/ubuntu/test_ws/install/state/lib/state
+
+Installed /home/ubuntu/test_ws/build/state
+running install_data

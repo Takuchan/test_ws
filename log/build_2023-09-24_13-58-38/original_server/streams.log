@@ -1,0 +1,21 @@
+[2.344s] Invoking command in '/home/ubuntu/test_ws/build/original_server': PYTHONPATH=/home/ubuntu/test_ws/build/original_server/prefix_override:/home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/original_server/build --no-deps install_data
+[2.886s] running develop
+[2.886s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.887s]   warnings.warn(
+[2.889s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.889s]   warnings.warn(
+[3.234s] running egg_info
+[3.234s] writing original_server.egg-info/PKG-INFO
+[3.234s] writing dependency_links to original_server.egg-info/dependency_links.txt
+[3.235s] writing entry points to original_server.egg-info/entry_points.txt
+[3.236s] writing requirements to original_server.egg-info/requires.txt
+[3.236s] writing top-level names to original_server.egg-info/top_level.txt
+[3.239s] reading manifest file 'original_server.egg-info/SOURCES.txt'
+[3.240s] writing manifest file 'original_server.egg-info/SOURCES.txt'
+[3.243s] running build_ext
+[3.244s] Creating /home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages/original-server.egg-link (link to .)
+[3.245s] Installing simple_server script to /home/ubuntu/test_ws/install/original_server/lib/original_server
+[3.246s] 
+[3.246s] Installed /home/ubuntu/test_ws/build/original_server
+[3.247s] running install_data
+[3.302s] Invoked command in '/home/ubuntu/test_ws/build/original_server' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/original_server/prefix_override:/home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/original_server/build --no-deps install_data

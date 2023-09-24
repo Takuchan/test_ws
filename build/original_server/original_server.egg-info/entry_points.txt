@@ -1,0 +1,5 @@
+[console_scripts]
+service = py.srvcli.service_member_function:main
+simple_client = original_server.simple_client:main
+simple_server = original_server.simple_server:main
+

@@ -1,0 +1,21 @@
+[0.646s] Invoking command in '/home/ubuntu/test_ws/build/simple_service': PYTHONPATH=/home/ubuntu/test_ws/build/simple_service/prefix_override:/home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/simple_service/build --no-deps install_data
+[0.850s] running develop
+[0.850s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.850s]   warnings.warn(
+[0.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.851s]   warnings.warn(
+[0.997s] running egg_info
+[0.997s] writing simple_service.egg-info/PKG-INFO
+[0.997s] writing dependency_links to simple_service.egg-info/dependency_links.txt
+[0.997s] writing entry points to simple_service.egg-info/entry_points.txt
+[0.998s] writing requirements to simple_service.egg-info/requires.txt
+[0.998s] writing top-level names to simple_service.egg-info/top_level.txt
+[0.999s] reading manifest file 'simple_service.egg-info/SOURCES.txt'
+[1.000s] writing manifest file 'simple_service.egg-info/SOURCES.txt'
+[1.001s] running build_ext
+[1.001s] Creating /home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages/simple-service.egg-link (link to .)
+[1.002s] Installing simple_server script to /home/ubuntu/test_ws/install/simple_service/lib/simple_service
+[1.002s] 
+[1.002s] Installed /home/ubuntu/test_ws/build/simple_service
+[1.002s] running install_data
+[1.025s] Invoked command in '/home/ubuntu/test_ws/build/simple_service' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/simple_service/prefix_override:/home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/simple_service/build --no-deps install_data

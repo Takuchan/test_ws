@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing original_server.egg-info/PKG-INFO
+writing dependency_links to original_server.egg-info/dependency_links.txt
+writing entry points to original_server.egg-info/entry_points.txt
+writing requirements to original_server.egg-info/requires.txt
+writing top-level names to original_server.egg-info/top_level.txt
+reading manifest file 'original_server.egg-info/SOURCES.txt'
+writing manifest file 'original_server.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages/original-server.egg-link (link to .)
+Installing service script to /home/ubuntu/test_ws/install/original_server/lib/original_server
+Installing simple_server script to /home/ubuntu/test_ws/install/original_server/lib/original_server
+
+Installed /home/ubuntu/test_ws/build/original_server
+running install_data

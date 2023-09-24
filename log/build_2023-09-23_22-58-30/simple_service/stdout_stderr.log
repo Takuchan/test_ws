@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing simple_service.egg-info/PKG-INFO
+writing dependency_links to simple_service.egg-info/dependency_links.txt
+writing entry points to simple_service.egg-info/entry_points.txt
+writing requirements to simple_service.egg-info/requires.txt
+writing top-level names to simple_service.egg-info/top_level.txt
+reading manifest file 'simple_service.egg-info/SOURCES.txt'
+writing manifest file 'simple_service.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages/simple-service.egg-link (link to .)
+Installing simple_server script to /home/ubuntu/test_ws/install/simple_service/lib/simple_service
+
+Installed /home/ubuntu/test_ws/build/simple_service
+running install_data

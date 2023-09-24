@@ -1,0 +1,21 @@
+[2.176s] Invoking command in '/home/ubuntu/test_ws/build/state': PYTHONPATH=/home/ubuntu/test_ws/build/state/prefix_override:/home/ubuntu/test_ws/install/state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/state/build --no-deps install_data
+[2.753s] running develop
+[2.754s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.754s]   warnings.warn(
+[2.757s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.757s]   warnings.warn(
+[3.118s] running egg_info
+[3.119s] writing state.egg-info/PKG-INFO
+[3.120s] writing dependency_links to state.egg-info/dependency_links.txt
+[3.120s] writing entry points to state.egg-info/entry_points.txt
+[3.121s] writing requirements to state.egg-info/requires.txt
+[3.121s] writing top-level names to state.egg-info/top_level.txt
+[3.124s] reading manifest file 'state.egg-info/SOURCES.txt'
+[3.127s] writing manifest file 'state.egg-info/SOURCES.txt'
+[3.133s] running build_ext
+[3.134s] Creating /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state.egg-link (link to .)
+[3.135s] Installing state_machine2 script to /home/ubuntu/test_ws/install/state/lib/state
+[3.136s] 
+[3.137s] Installed /home/ubuntu/test_ws/build/state
+[3.137s] running install_data
+[3.215s] Invoked command in '/home/ubuntu/test_ws/build/state' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/state/prefix_override:/home/ubuntu/test_ws/install/state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/state/build --no-deps install_data

@@ -1,0 +1,22 @@
+[0.624s] Invoking command in '/home/ubuntu/test_ws/build/simple_service': PYTHONPATH=/home/ubuntu/test_ws/build/simple_service/prefix_override:/home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/simple_service/build --no-deps install_data
+[0.846s] running develop
+[0.846s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.846s]   warnings.warn(
+[0.847s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.847s]   warnings.warn(
+[0.976s] running egg_info
+[0.976s] writing simple_service.egg-info/PKG-INFO
+[0.976s] writing dependency_links to simple_service.egg-info/dependency_links.txt
+[0.976s] writing entry points to simple_service.egg-info/entry_points.txt
+[0.976s] writing requirements to simple_service.egg-info/requires.txt
+[0.976s] writing top-level names to simple_service.egg-info/top_level.txt
+[0.977s] reading manifest file 'simple_service.egg-info/SOURCES.txt'
+[0.977s] writing manifest file 'simple_service.egg-info/SOURCES.txt'
+[0.978s] running build_ext
+[0.979s] Creating /home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages/simple-service.egg-link (link to .)
+[0.979s] Installing simple_client script to /home/ubuntu/test_ws/install/simple_service/lib/simple_service
+[0.979s] Installing simple_server script to /home/ubuntu/test_ws/install/simple_service/lib/simple_service
+[0.980s] 
+[0.980s] Installed /home/ubuntu/test_ws/build/simple_service
+[0.980s] running install_data
+[1.005s] Invoked command in '/home/ubuntu/test_ws/build/simple_service' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/simple_service/prefix_override:/home/ubuntu/test_ws/install/simple_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/simple_service/build --no-deps install_data

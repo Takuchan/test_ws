@@ -1,0 +1,28 @@
+[2.280s] Invoking command in '/home/ubuntu/test_ws/build/original_server': PYTHONPATH=/home/ubuntu/test_ws/build/original_server/prefix_override:/home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/original_server/build --no-deps install_data
+[2.842s] running develop
+[2.842s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.843s]   warnings.warn(
+[2.845s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.845s]   warnings.warn(
+[3.203s] running egg_info
+[3.203s] creating original_server.egg-info
+[3.204s] writing original_server.egg-info/PKG-INFO
+[3.204s] writing dependency_links to original_server.egg-info/dependency_links.txt
+[3.204s] writing entry points to original_server.egg-info/entry_points.txt
+[3.205s] writing requirements to original_server.egg-info/requires.txt
+[3.205s] writing top-level names to original_server.egg-info/top_level.txt
+[3.206s] writing manifest file 'original_server.egg-info/SOURCES.txt'
+[3.208s] reading manifest file 'original_server.egg-info/SOURCES.txt'
+[3.210s] writing manifest file 'original_server.egg-info/SOURCES.txt'
+[3.215s] running build_ext
+[3.215s] Creating /home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages/original-server.egg-link (link to .)
+[3.217s] Installing simple_server script to /home/ubuntu/test_ws/install/original_server/lib/original_server
+[3.218s] 
+[3.219s] Installed /home/ubuntu/test_ws/build/original_server
+[3.219s] running install_data
+[3.220s] creating /home/ubuntu/test_ws/install/original_server/share/ament_index
+[3.220s] creating /home/ubuntu/test_ws/install/original_server/share/ament_index/resource_index
+[3.220s] creating /home/ubuntu/test_ws/install/original_server/share/ament_index/resource_index/packages
+[3.221s] copying resource/original_server -> /home/ubuntu/test_ws/install/original_server/share/ament_index/resource_index/packages
+[3.221s] copying package.xml -> /home/ubuntu/test_ws/install/original_server/share/original_server
+[3.297s] Invoked command in '/home/ubuntu/test_ws/build/original_server' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/original_server/prefix_override:/home/ubuntu/test_ws/install/original_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/test_ws/build/original_server/build --no-deps install_data

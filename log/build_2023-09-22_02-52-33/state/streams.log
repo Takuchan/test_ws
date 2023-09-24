@@ -1,0 +1,39 @@
+[0.390s] Invoking command in '/home/ubuntu/test_ws/src/state': PYTHONPATH=/home/ubuntu/test_ws/build/state/prefix_override:/home/ubuntu/test_ws/install/state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/state build --build-base /home/ubuntu/test_ws/build/state/build install --record /home/ubuntu/test_ws/build/state/install.log --single-version-externally-managed
+[0.538s] running egg_info
+[0.539s] creating ../../build/state/state.egg-info
+[0.539s] writing ../../build/state/state.egg-info/PKG-INFO
+[0.540s] writing dependency_links to ../../build/state/state.egg-info/dependency_links.txt
+[0.540s] writing entry points to ../../build/state/state.egg-info/entry_points.txt
+[0.540s] writing requirements to ../../build/state/state.egg-info/requires.txt
+[0.540s] writing top-level names to ../../build/state/state.egg-info/top_level.txt
+[0.540s] writing manifest file '../../build/state/state.egg-info/SOURCES.txt'
+[0.541s] reading manifest file '../../build/state/state.egg-info/SOURCES.txt'
+[0.541s] writing manifest file '../../build/state/state.egg-info/SOURCES.txt'
+[0.542s] running build
+[0.542s] running build_py
+[0.542s] creating /home/ubuntu/test_ws/build/state/build
+[0.542s] creating /home/ubuntu/test_ws/build/state/build/lib
+[0.542s] creating /home/ubuntu/test_ws/build/state/build/lib/state
+[0.542s] copying state/__init__.py -> /home/ubuntu/test_ws/build/state/build/lib/state
+[0.542s] copying state/state_machine2.py -> /home/ubuntu/test_ws/build/state/build/lib/state
+[0.542s] running install
+[0.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.543s]   warnings.warn(
+[0.543s] running install_lib
+[0.543s] creating /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state
+[0.543s] copying /home/ubuntu/test_ws/build/state/build/lib/state/__init__.py -> /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state
+[0.543s] copying /home/ubuntu/test_ws/build/state/build/lib/state/state_machine2.py -> /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state
+[0.544s] byte-compiling /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state/__init__.py to __init__.cpython-310.pyc
+[0.544s] byte-compiling /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state/state_machine2.py to state_machine2.cpython-310.pyc
+[0.544s] running install_data
+[0.544s] creating /home/ubuntu/test_ws/install/state/share/ament_index
+[0.545s] creating /home/ubuntu/test_ws/install/state/share/ament_index/resource_index
+[0.545s] creating /home/ubuntu/test_ws/install/state/share/ament_index/resource_index/packages
+[0.545s] copying resource/state -> /home/ubuntu/test_ws/install/state/share/ament_index/resource_index/packages
+[0.545s] copying package.xml -> /home/ubuntu/test_ws/install/state/share/state
+[0.545s] running install_egg_info
+[0.546s] Copying ../../build/state/state.egg-info to /home/ubuntu/test_ws/install/state/lib/python3.10/site-packages/state-0.0.0-py3.10.egg-info
+[0.547s] running install_scripts
+[0.562s] Installing state_machine2 script to /home/ubuntu/test_ws/install/state/lib/state
+[0.562s] writing list of installed files to '/home/ubuntu/test_ws/build/state/install.log'
+[0.579s] Invoked command in '/home/ubuntu/test_ws/src/state' returned '0': PYTHONPATH=/home/ubuntu/test_ws/build/state/prefix_override:/home/ubuntu/test_ws/install/state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/state build --build-base /home/ubuntu/test_ws/build/state/build install --record /home/ubuntu/test_ws/build/state/install.log --single-version-externally-managed
