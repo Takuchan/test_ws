@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tk/ros2_ws/install/ros2_navigation_test/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/ultralytics_ros/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/three_dimensional_data_processing/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/recognition_processing/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/recognition_launch/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/person_feature_extraction/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/happymimi_recognition_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happy_apps_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happymimi_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happy_navigation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tk/ros2_ws/install/ros2_navigation_test/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/ultralytics_ros/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/three_dimensional_data_processing/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/recognition_processing/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/recognition_launch/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/person_feature_extraction/lib/python3.10/site-packages",
+        "/home/tk/ros2_ws/install/happymimi_recognition_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happy_apps_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happymimi_msgs/local/lib/python3.10/dist-packages",
+        "/home/tk/ros2_ws/install/happy_navigation/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
