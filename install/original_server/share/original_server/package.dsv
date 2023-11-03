@@ -1,9 +1,0 @@
-source;share/original_server/hook/pythonpath.ps1
-source;share/original_server/hook/pythonpath.dsv
-source;share/original_server/hook/pythonpath.sh
-source;share/original_server/hook/ament_prefix_path.ps1
-source;share/original_server/hook/ament_prefix_path.dsv
-source;share/original_server/hook/ament_prefix_path.sh
-source;../../build/original_server/share/original_server/hook/pythonpath_develop.ps1
-source;../../build/original_server/share/original_server/hook/pythonpath_develop.dsv
-source;../../build/original_server/share/original_server/hook/pythonpath_develop.sh

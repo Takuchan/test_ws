@@ -1,3 +1,0 @@
-[console_scripts]
-state_machine2 = state.state_machine2:main
-

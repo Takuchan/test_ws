@@ -1,1 +1,0 @@
-/home/ubuntu/test_ws/src/original_server/setup.py
