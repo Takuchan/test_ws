@@ -251,4 +251,114 @@
     </sensor>
     <material>Gazebo/Blue</material>
   </gazebo>
+  <!-- imu plugin -->
+  <gazebo reference="imu_link">
+    <sensor name="gazebo_imu" type="imu">
+      <!-- 重力が存在できるように設定 -->
+        <gravity>true</gravity>
+        <visualize>true</visualize>
+        <update_rate>60</update_rate>
+        <always_on>true</always_on>
+        <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+            <ros>
+                <namespace>/first_robot</namespace>
+                <remapping>~/out:=imu</remapping>
+            </ros>
+            <initial_orientation_as_reference>false</initial_orientation_as_reference>
+            <output_type>sensor_msgs/Imu</output_type>
+            <frame_name>imu_link</frame_name>
+        </plugin>
+        <imu>
+            <angular_velocity>
+                <x>
+                    <noise type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>2e-04</stddev>
+                        <bias_mean>0.0000075</bias_mean>
+                        <bias_stddev>0.0000008</bias_stddev>
+                    </noise>
+                </x>
+                <y>
+                    <nosie type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>2e-04</stddev>
+                        <bias_mean>0.0000075</bias_mean>
+                        <bias_stddev>0.0000008</bias_stddev>
+                    </nosie>
+                </y>
+                <z>
+                    <nosie type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>2e-04</stddev>
+                        <bias_mean>0.0000075</bias_mean>
+                        <bias_stddev>0.0000008</bias_stddev>
+                    </nosie>
+                </z>
+            </angular_velocity>
+            <linear_acceleration>
+                <x>
+                    <nosie type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>1.7e-02</stddev>
+                        <bias_mean>0.001</bias_mean>
+                        <bias_stddev>0.001</bias_stddev>
+                    </nosie>
+                </x>
+                <y>
+                    <nosie type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>1.7e-02</stddev>
+                        <bias_mean>0.001</bias_mean>
+                        <bias_stddev>0.001</bias_stddev>
+                    </nosie>
+                </y>
+                <z>
+                    <nosie type="gaussian">
+                        <mean>0.0</mean>
+                        <stddev>1.7e-02</stddev>
+                        <bias_mean>0.001</bias_mean>
+                        <bias_stddev>0.001</bias_stddev>
+                    </nosie>
+                </z>
+            </linear_acceleration>
+        </imu>
+    </sensor>
+  </gazebo>
+  <!-- 2Dliderのセンサーを追加 -->
+  <!-- lidar plugin -->
+  <gazebo reference="lidar_link">
+    <sensor name="gazebo_lidar" type="ray">
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>60</update_rate>
+        <plugin filename="libgazebo_ros_ray_sensor.so" name="gazebo_lidar">
+            <ros>
+                <remapping>~/out:=scan</remapping>
+            </ros>
+            <output_type>sensor_msgs/LaserScan</output_type>
+            <frame_name>lidar_link</frame_name>
+        </plugin>
+        <ray>
+            <scan>
+                <horizontal>
+                    <samples>360</samples>
+                    <resolution>1.000000</resolution>
+                    <min_angle>0.000000</min_angle>
+                    <max_angle>3.140000</max_angle>
+                </horizontal>
+            </scan>
+            <range>
+                <min>0.150</min>
+                <max>6.0</max>
+                <resolution>0.015</resolution>
+            </range>
+            <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+            </noise>
+        </ray>
+    </sensor>
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
 </robot>
