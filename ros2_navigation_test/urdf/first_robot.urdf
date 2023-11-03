@@ -187,4 +187,68 @@
         <child link="imu_link"/>
         <axis xyz="0 0 1.0"/>
     </joint>
+
+    <!-- センサー系を追加 -->
+    <gazebo>
+      <!-- ガゼボに追加 -->
+      <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+          <ros>
+              <remapping>cmd_vel:=cmd_vel</remapping>
+              <namespace>/first_robot</namespace>
+              <remapping>odom:=odom</remapping>
+          </ros>
+          <left_joint>wheel_front_left_joint</left_joint>
+          <right_joint>wheel_front_right_joint</right_joint>
+          <wheel_separation>0.4</wheel_separation>
+          <!-- 模型のurdfでは車輪は半径を指定するがこちらでは直径を指定 -->
+          <wheel_diameter>0.15</wheel_diameter>
+          <max_wheel_torque>20</max_wheel_torque>
+          <max_wheel_acceleration>1.0</max_wheel_acceleration>
+          <publish_odom>true</publish_odom>
+          <publish_odom_tf>false</publish_odom_tf>
+          <publish_wheel_tf>true</publish_wheel_tf>
+          <update_rate>30</update_rate>
+  
+          <odometry_topic>odom</odometry_topic>
+          <odometry_frame>odom</odometry_frame>
+          <base_frame_id>base_footprint</base_frame_id>
+          <robot_base_frame>base_link</robot_base_frame>
+          <command_topic>cmd_vel</command_topic>
+      </plugin>
+  </gazebo>
+
+  <!-- カメラセンサーを追加 -->
+  <!-- camera plugin -->
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="camera1">
+        <alwaysOn>true</alwaysOn>
+        <visualize>true</visualize>
+        <update_rate>30.0</update_rate>
+        <camera name="head">
+            <horizontal_fov>1.3962634</horizontal_fov>
+            <image>
+                <width>800</width>
+                <height>800</height>
+                <format>R8G8B8</format>
+            </image>
+            <clip>
+                <near>0.02</near>
+                <far>300</far>
+            </clip>
+            <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.007</stddev>
+            </noise>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+            <cameraName>/camera</cameraName>
+            <imageTopicName>image_raw</imageTopicName>
+            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+            <frameName>camera_link</frameName>
+            <hackBaseline>0.07</hackBaseline>
+        </plugin>
+    </sensor>
+    <material>Gazebo/Blue</material>
+  </gazebo>
 </robot>
